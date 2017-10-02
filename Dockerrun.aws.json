@@ -1,0 +1,19 @@
+{
+"AWSEBDockerrunVersion": 2,
+"containerDefinitions": [
+  {
+    "name": "test",
+    "image": "642215596270.dkr.ecr.us-east-2.amazonaws.com/test-repo:latest",
+    "essential": true,
+    "memory": 200,
+    "cpu": 1,
+    "portMappings": [
+      {
+        "hostPort": 80,
+        "containerPort": 80,
+        "protocol": "tcp"
+      }
+    ]
+  }
+]
+}
