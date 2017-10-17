@@ -2,8 +2,8 @@
 "AWSEBDockerrunVersion": 2,
 "containerDefinitions": [
   {
-    "name": "test",
-    "image": "642215596270.dkr.ecr.us-east-2.amazonaws.com/test-repo:latest",
+    "name": "ez-pipeline-env",
+    "image": "665616223128.dkr.ecr.eu-central-1.amazonaws.com/pipeline:latest",
     "essential": true,
     "memory": 200,
     "cpu": 1,
