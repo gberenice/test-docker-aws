@@ -3,7 +3,7 @@
 "containerDefinitions": [
   {
     "name": "ez-pipeline-env",
-    "image": "665616223128.dkr.ecr.eu-central-1.amazonaws.com/pipeline:latest",
+    "image": "<account_id_must_be_here>.dkr.ecr.eu-central-1.amazonaws.com/pipeline:latest",
     "essential": true,
     "memory": 200,
     "cpu": 1,
