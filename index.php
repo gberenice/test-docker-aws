@@ -3,6 +3,6 @@
   <title>PHP demo</title>
  </head>
  <body>
- <p>Event Zebra pipeline</p>
+ <p>ez pipeline</p>
  </body>
 </html>
